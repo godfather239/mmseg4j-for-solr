@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.chenlb.mmseg4j</groupId>
+    <artifactId>mmseg4j-for-solr</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>mmseg4j-for-solr32</artifactId>
+  <name>mmseg4j-for-solr32</name>
+  <description>mmseg4j for solr/lucene 3.2 compatibility</description>
+  <properties>
+  	<solr.version>3.2.0</solr.version>
+  	<slf4j.version>1.5.5</slf4j.version>
+  </properties>
+  <dependencies>
+
+
+  	<dependency>
+  		<groupId>org.apache.solr</groupId>
+  		<artifactId>solr-core</artifactId>
+  		<version>${solr.version}</version>
+  	</dependency>
+   	<dependency>
+  		<groupId>org.apache.solr</groupId>
+  		<artifactId>solr-test-framework</artifactId>
+  		<version>${solr.version}</version>
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
+</project>
