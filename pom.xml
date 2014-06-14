@@ -7,7 +7,7 @@
   </parent>
   <groupId>com.chenlb.mmseg4j</groupId>
   <artifactId>mmseg4j-for-solr</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>mmseg4j-for-solr</name>
   <description>mmseg4j for solr/lucene compatible major releases</description>

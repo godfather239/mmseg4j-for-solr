@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.chenlb.mmseg4j</groupId>
     <artifactId>mmseg4j-for-solr</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>mmseg4j-for-solr40</artifactId>
   <name>mmseg4j-for-solr40</name>
